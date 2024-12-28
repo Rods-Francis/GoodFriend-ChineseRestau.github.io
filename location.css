@@ -435,12 +435,13 @@ body {
   .location {
     flex-direction: column;
     text-align: center;
+    align-items:center;
   }
 
   .location-info,
   .location-img {
     width: 100%;
-    padding-right: 0;
+  
   }
 
   .location-info h1 {
