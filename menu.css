@@ -7,11 +7,11 @@
 
 body{
   background: url(mainBG.jpg);
-  background-size: cover; /* Keep this to ensure it covers the area */
-  margin: 0; /* Ensure there's no margin */
-  padding: 0; /* Ensure there's no padding */
+  background-size: cover;
+  margin: 0; 
+  padding: 0; 
   height: 100vh;
-  width: 100vw; /* Set height to full viewport height */
+  width: 100vw; 
   overflow:auto;
 
 }
