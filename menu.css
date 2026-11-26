@@ -506,7 +506,7 @@ section .nav-bar a:hover{
   }
 }
 
-.overlay .button {
+.overlay .1button {
   background-color: #ff6b6b;
   border: none;
   color: white;
@@ -517,7 +517,7 @@ section .nav-bar a:hover{
   transition: background-color 0.3s ease;
 }
 
-.overlay .button:hover {
+.overlay .1button:hover {
   background-color: #ff4c4c;
 }
 
@@ -544,10 +544,24 @@ section .nav-bar a:hover{
       margin-bottom: 10px;
   }
 
-  .overlay .button {
+  .overlay .button2 {
       font-size: 14px; 
       padding: 8px 16px; 
   }
+
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
 
   /* Adjust cart dropdown for mobile */
   #cart-dropdown {
